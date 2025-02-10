@@ -22,12 +22,16 @@ def get_prayer_times(latitude,longitude):
     respons = requests.get(url)
     if respons.status_code == 200:
         data = respons.json()
-        return (data["data"])
+        return (data["data"]) # Returns the prayer times of the month in list of dictionary's 
 
 
 latitude = get_location()[0]
 longitude = get_location()[1] 
-print(get_prayer_times(latitude,longitude))
+month_prayer_times = get_prayer_times(latitude,longitude)
+
+for day in month_prayer_times:
+    print(day["timings"])
+    print("")
 
 # while True:
 #     local_time = time.localtime()
