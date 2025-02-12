@@ -1,12 +1,44 @@
 # Athan
 
-This is my first "official" poject, I hope to learn a lot from this.
+Athan is a Python program that displays prayer times and sends notifications based on the user's location. This project aims to help me and my fellow Muslims be on time for their prayers.
 
 ## Goals
-My goals with this project are to firstly learn more about git(hub) and learn more about programming, I've only done smaller projects and never really had something that I could proudly show off.
-I hope that with Athan I can help my fellow Muslims be on time for their prayer and never miss another one.
-As this is my first time trying something like this I do not know if it will work perfectly, I will try my best and add any info as time goes on.
 
-## Progress
-At the moment I've been succesfull in implementing the API's to get the needed latitude and longitude and using these to get the prayertimes.
-What needs to be done is extract the prayertimes out of the json and displaying them in a readable way, after that I'll need to implement a way to either get a notification on the screen or make the athan play when it's time for prayer.
+My goals with this project are to learn more about Git(GitHub) and improve my programming skills. I have only done smaller projects before and never really had something to proudly show off. With Athan, I hope to create something useful for my community.
+
+## Features
+
+- Retrieves the current location (latitude and longitude) using an IP address.
+- Obtains prayer times for the current month based on the location.
+- Displays today's prayer times.
+- Sends notifications for each prayer at the appropriate time.
+
+## Installation
+
+Follow these steps to install and run the project locally on your machine:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/0trifix/Athan.git
+   cd Athan
+   ```
+
+## To-Do
+- [ ] Add support for different calculation methods.
+- [ ] Add support for different timezones.
+- [ ] Add support for different languages.
+- [ ] Make the program run in the background.
+- [ ] Improve the notification system.
+- [ ] Add a configuration file for the user to customize the program.
+- [ ] Add a GUI for the program.
+- [ ] Improved error handling.
+- [ ] Imrpove the code structure and readability.
+
+## Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request if you have any ideas or suggestions.
+
+## License
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+If you have any questions or suggestions, feel free to contact me via [GitHub](hhttps://github.com/0trifix) or Telegram (@Otrifix).
